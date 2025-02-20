@@ -2,7 +2,7 @@
 # frm_payload: data(0..N)
 #
 from .AES_CMAC import AES_CMAC
-from Crypto.Cipher import AES
+from Cryptodome.Cipher import AES
 import math
 
 class DataPayload:

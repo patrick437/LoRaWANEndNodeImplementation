@@ -3,7 +3,7 @@
 #
 from .MalformedPacketException import MalformedPacketException
 from .AES_CMAC import AES_CMAC
-from Crypto.Cipher import AES
+from Cryptodome.Cipher import AES
 
 class JoinAcceptPayload:
 
